@@ -1,7 +1,7 @@
 name: Marriage
 version: 1.2.6
 main: com.lenis0012.bukkit.marriage.Marriage
-author: lenis0012
+authors: [harry5573, lenis0012]
 description: A plugin wich provides the function to start a relationship in minecraft.
 dev-url: http://dev.bukkit.org/bukkit-mods/marriage-reloaded/
 softdepend: [Vault]
@@ -9,37 +9,3 @@ commands:
   marry:
     description: Marriage main command.
     usage: /marry <args>
-permissions:
-  marry.*:
-    description: Allows all Marriage Commands
-    children:
-      marry.admin:
-        description: Allows all admin commands
-        children:
-          marry.reload:
-            description: Allows to reload the config files
-          marry.priest:
-            description: Allows player to marry 2 orther players.
-          marry.chatspy:
-            description: Allows player to view all mchat.
-      marry.default:
-        description: Allows default player commands
-        children:
-          marry.marry:
-            description: Allows to marry with players
-          marry.chat:
-            description: Allows to chat with your partner
-          marry.tp:
-            description: Allows to tp to your partner
-          marry.home:
-            description: Allows to tp to your home if set
-          marry.sethome:
-            description: Allwos to set your Marriage home
-          marry.gift:
-            description: Allows to gift itesm to your partner
-          marry.chat:
-            description: Allows to chat with your partner
-          marry.child:
-            description: Allows everything with children in marriage.
-          marry.seend:
-            description: Allows to see your last login from your partner
