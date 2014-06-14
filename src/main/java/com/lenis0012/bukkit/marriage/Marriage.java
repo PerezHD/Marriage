@@ -66,7 +66,6 @@ public class Marriage extends JavaPlugin {
         getCommand("marry").setExecutor(new MarryCMD());
 
         //setup config.yml
-        config.addDefault("update-checker", true);
         config.addDefault("settings.private-chat.format", "&a[Partner] &7{Player}&f: &a{Message}");
         config.addDefault("settings.chat-prefix.use", true);
         config.addDefault("settings.chat-prefix.format", "&4&l<3&r {OLD_FORMAT}");
